@@ -1,0 +1,47 @@
+body {
+  background: #18191a;
+  color: #f5f6fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.homepage-container {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  background: #232323;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+}
+.homepage-title {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+.homepage-desc {
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+  color: #b0b3b8;
+}
+.homepage-links {
+  margin-top: 2rem;
+}
+.homepage-links a {
+  margin: 0 1rem;
+  padding: 0.75rem 2rem;
+  background: linear-gradient(90deg, #007bff 60%, #0056b3 100%);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: background 0.2s;
+  display: inline-block;
+}
+.homepage-links a:last-child {
+  background: linear-gradient(90deg, #28a745 60%, #218838 100%);
+}
+.homepage-links a:hover {
+  opacity: 0.9;
+}
