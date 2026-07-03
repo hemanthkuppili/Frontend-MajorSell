@@ -6,22 +6,23 @@ import Signuppage from '../Pages/Signuppage';
 import ProfilePage from '../Pages/ProfilePage';
 import ProductPage from '../Pages/Productpage';
 import SearchPage from '../Pages/Searchpage';
+import ProductCreationpage from '../Pages/ProductCreationpage';
 import Navbar from '../components/Navbar';
 
 const AppRoute = () => (
   <Router>
     <Navbar />
-    <div style={{ padding: '1rem' }}>
+    <main>
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/login" element={<Loginpage />} />
         <Route path="/signup" element={<Signuppage />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/products" element={<ProductPage />} />
+        <Route path="/create-product" element={<ProductCreationpage />} />
         <Route path="/search" element={<SearchPage />} />
-        {/* Add more routes as needed */}
       </Routes>
-    </div>
+    </main>
   </Router>
 );
 
